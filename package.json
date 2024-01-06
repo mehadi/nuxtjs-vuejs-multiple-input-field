@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.5",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@nuxt/types": "~2.15.0",
-    "@nuxtjs/tailwindcss": "^3.1.0"
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "nuxt": "^3.9.0",
+    "vue": "^3.4.5",
+    "vue-router": "^4.2.5"
   }
 }
