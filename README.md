@@ -1,6 +1,6 @@
 # nuxt-dynamic-input
 
-![screenshot](https://github.com/mehadi/nuxtjs-vuejs-multiple-input-field/blob/main/dynamic_input.png?raw=true)
+![screenshot](preview.png)
 
 ## Build Setup
 
